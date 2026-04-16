@@ -10,10 +10,10 @@
             </xpath>
             <xpath expr="//field[@name='barcode']" position="after">
                 <field name="upc_generated" readonly="1"/>
-                <field name="barcode_source" readonly="1"/>
-                <field name="upc_prefix_id" readonly="1"/>
-                <field name="upc_ref" readonly="1"/>
-                <field name="upc_assigned_on" readonly="1"/>
+                <field name="barcode_source" invisible="1"/>
+                <field name="upc_prefix_id" invisible="1"/>
+                <field name="upc_ref" invisible="1"/>
+                <field name="upc_assigned_on" invisible="1"/>
             </xpath>
         </field>
     </record>
