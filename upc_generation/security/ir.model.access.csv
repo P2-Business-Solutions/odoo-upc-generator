@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_upc_prefix_user,upc.prefix.user,model_upc_prefix,stock.group_stock_user,1,0,0,0
+access_upc_prefix_manager,upc.prefix.manager,model_upc_prefix,stock.group_stock_manager,1,1,1,1
+access_upc_generation_wizard,upc.generation.wizard,model_upc_generation_wizard,stock.group_stock_user,1,1,1,1
+access_upc_generation_wizard_line,upc.generation.wizard.line,model_upc_generation_wizard_line,stock.group_stock_user,1,1,1,1
